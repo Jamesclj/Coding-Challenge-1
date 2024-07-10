@@ -1,0 +1,23 @@
+let appName = "Instagram"
+let developerName = "Meta"
+let initialYear = 2010
+
+var currentVers = 318.0
+var numOfdownloads = 3
+var userRating = 4.5
+
+print ("App Name: \(appName)")
+print ("Developer Name: \(developerName)")
+print ("Year Of Realease: \(initialYear)")
+print ("Current Version: \(currentVers)")
+print ("Number of Downloads: \(numOfdownloads)")
+print ("User Rating: \(userRating)")
+
+currentVers += 0.1
+numOfdownloads += 1000
+userRating += 0.2
+print("New version: \(currentVers)")
+print ("New downloads: \(numOfdownloads)")
+print("New Rating: \(userRating)")
+
+
